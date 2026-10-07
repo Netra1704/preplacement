@@ -9,7 +9,7 @@ public class sample{
             System.out.println("Age");
             age=cs.nextInt();
             System.out.println("Gender:");
-            gender=cs.nextLine();
+            gender=cs.next();
             if(age>=18 && gender.equalsIgnoreCase("male")){
             System.out.println(name+" is eligible.");
             }
