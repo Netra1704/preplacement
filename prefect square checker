@@ -1,0 +1,17 @@
+public class PerfectSquareChecker {
+    public static boolean isPerfectSquare(double number) {
+        if (number < 0) {
+            return false; 
+        }
+        double sqrt = Math.sqrt(number);
+        return (sqrt - Math.floor(sqrt)) == 0;
+    }
+    public static void main(String[] args) {
+        double testNumber = 49.0; 
+        if (isPerfectSquare(testNumber)) {
+            System.out.println(testNumber + " is a perfect square.");
+        } else {
+            System.out.println(testNumber + " is not a perfect square.");
+        }
+    }
+}
