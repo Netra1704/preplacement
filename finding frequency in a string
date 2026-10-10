@@ -19,7 +19,7 @@ class Main{
                     count++;
                 }
             }
-            System.out.print(s.charAt(i)+" = "+count);
+            System.out.print(s.charAt(i)+" = "+count+", ");
                 }
             }
         }
